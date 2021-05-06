@@ -1,0 +1,15 @@
+current directory: /Users/yamashitamisato/workspace/runteq/動物園検索アプリ/animal_search/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/yamashitamisato/.rbenv/versions/2.7.2/bin/ruby -I /Users/yamashitamisato/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210506-17003-33lqd3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yamashitamisato/workspace/runteq/動物園検索アプリ/animal_search/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /Users/yamashitamisato/workspace/runteq/動物園検索アプリ/animal_search/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/yamashitamisato/workspace/runteq/動物園検索アプリ/animal_search/vendor/bundle/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20210506-17003-1a186ff/skiptrace/internal
