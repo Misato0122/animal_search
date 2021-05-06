@@ -24,6 +24,10 @@ module AnimalSearch
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
 
+    # i18nの初期設定
+    config.i18n.default_locale = :ja
+    config.time_zone = 'Tokyo'
+    config.i18n.load_path += Dir[Rails.root.join('config', 'locales', '**', '*.{rb,yml}')]
     # Configuration for the application, engines, and railties goes here.
     #
     # These settings can be overridden in specific environments using the files
@@ -31,8 +35,12 @@ module AnimalSearch
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-
-    # Don't generate system test files.
-    config.generators.system_tests = nil
+    # generateで作成されるファイルの制御
+    config.generators do |g|
+      g.assets false
+      g.helper false
+      g.skip_routes false
+      g.test_flamework false
+    end
   end
 end
