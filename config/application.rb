@@ -23,6 +23,9 @@ module AnimalSearch
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    
+    # slimテンプレートに変更
+    config.generators.template_engine = :slim
 
     # i18nの初期設定
     config.i18n.default_locale = :ja
