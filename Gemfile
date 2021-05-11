@@ -50,3 +50,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # slim化
 gem 'slim-rails'
 gem 'html2slim'
+
+# デザイン
+gem 'tailwindcss-rails'
